@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageActivity">
+
+    <FrameLayout
+        android:id="@+id/graphics_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/input_image"-->
+<!--            android:src="@drawable/background"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+<!--        </ImageView>-->
+
+<!--        <com.google.android.cameraview.demo.CustomZoomableImageView-->
+<!--            android:id="@+id/captured"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:scaleType="matrix">-->
+<!--        </com.google.android.cameraview.demo.CustomZoomableImageView>-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:onClick="saveImage"
+            android:layout_gravity="center_horizontal|bottom">
+        </Button>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
